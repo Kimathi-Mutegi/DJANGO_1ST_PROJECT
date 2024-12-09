@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");/*This line imports the 
+Mulish font family from Google Fonts.*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+#home{
+  background-color: orange;
+  height: 400px;
+}
+
+#id{
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+}
+
+p{
+  color: aliceblue;
+}
+
+h1{
+  color: azure;
+  margin-top: 100px;
+}
+
+#home_image{
+  background-color: orange;
+  margin-top: 100px;
+}

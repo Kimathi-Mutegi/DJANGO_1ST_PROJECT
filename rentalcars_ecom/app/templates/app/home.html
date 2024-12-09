@@ -1,0 +1,28 @@
+{% extends "app/base.html"%} 
+{% load static %} 
+{% block title %} 
+home page
+{%endblock %} 
+{% block timothy_section %}
+<section id="home">
+  <div class="container row-center">
+    <div  class="row text-center">
+      <div class="col-md-6 home" id="intro">
+        <h1>Looking to save more on your rental car?</h1>
+        <p>
+          Discover RentalX car rental options in India with Rent a Car Select
+          from a range of car options and local specials.
+        </p>
+      </div>
+      <div class="col-md-6 home" id="home_image">
+        <a href="#">
+          <img
+            src="{% static 'app/images/products/Fordfseries_2.jpg' %}"
+            alt="Ford f series 2"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

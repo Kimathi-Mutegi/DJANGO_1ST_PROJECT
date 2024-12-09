@@ -1,0 +1,12 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block title %}
+ password change done
+{% endblock %}
+{% block main-content%}
+<form method="post" action="{% url 'do-logout' %}">
+    {% csrf_token %}
+    <a href="{% url 'login' %}" class="text-danger">Login Now</a>
+</form>
+{% endblock %}
